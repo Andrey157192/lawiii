@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawidius - A Rising Star</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #f5f5f5;
+        }
+
+        header {
+            background: linear-gradient(90deg, #000000, #333333);
+            color: #f5f5f5;
+            padding: 2rem;
+            text-align: center;
+            position: relative;
+        }
+
+        header::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background-color: #f5b800;
+        }
+
+        nav {
+            background-color: #1c1c1c;
+            color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: #f5b800;
+            margin: 0 1.5rem;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+        }
+
+        section {
+            padding: 2rem 5%;
+        }
+
+        h2 {
+            color: #f5b800;
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            line-height: 1.8;
+            font-size: 1rem;
+            text-align: justify;
+        }
+
+        .about-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .about-container img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #f5b800;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .values {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: #1c1c1c;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 300px;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+        }
+
+        .card h3 {
+            color: #f5b800;
+            margin: 1rem 0;
+            font-size: 1.5rem;
+        }
+
+        .card p {
+            color: #dcdcdc;
+            font-size: 0.9rem;
+            padding: 0 1rem 1rem;
+        }
+
+        footer {
+            background-color: #000000;
+            color: #f5b800;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Lawidius</h1>
+        <p>A Dedicated and Talented Individual with Unlimited Potential</p>
+    </header>
+
+   
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <!-- Tempat Foto -->
+            <img src="law.jpg" alt="Photo of Lawdius">
+            <p>
+                Hello! My name is <strong>Lawidius</strong>. I am an 18-year-old individual with a strong sense of determination and creativity. 
+                Born to Mr. Marsen, I was raised with the values of hard work, empathy, and perseverance. I believe in constantly evolving 
+                and pushing boundaries to achieve my goals. My journey is a blend of ambition, learning, and a relentless pursuit of excellence.
+            </p>
+        </div>
+    </section>
+
+    <section id="values">
+        <h2>My Values</h2>
+        <div class="values">
+            <div class="card">
+                <h3>Integrity</h3>
+                <p>Being honest and consistent in my actions, I prioritize authenticity and trust in everything I do.</p>
+            </div>
+            <div class="card">
+                <h3>Creativity</h3>
+                <p>With a passion for innovation, I bring fresh ideas and unique approaches to problem-solving.</p>
+            </div>
+            <div class="card">
+                <h3>Resilience</h3>
+                <p>Adversity only strengthens me. I face challenges head-on and bounce back stronger every time.</p>
+            </div>
+            <div class="card">
+                <h3>Empathy</h3>
+                <p>Understanding and valuing others is at the core of my interactions. I aim to uplift and inspire those around me.</p>
+            </div>
+            <div class="card">
+                <h3>Adaptability</h3>
+                <p>In an ever-changing world, I embrace flexibility and learn new skills to stay ahead.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="lawialdo@gmail.com" style="color: #f5b800;">lawdius@example.com</a></p>
+        <p>Phone: +62 851-5699-3146</p>
+        <p>IG: lawidiusihaloho</p>
+        <p>Address: 123 Innovation Street, Vision City, Country</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Lawdius. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
